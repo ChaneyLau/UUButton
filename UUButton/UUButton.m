@@ -39,6 +39,7 @@
 
 - (void)setupContentAlignment
 {
+    // 获取图文size
     CGFloat image_w = self.imageView.bounds.size.width;
     CGFloat image_h = self.imageView.bounds.size.height;
     CGFloat title_w = self.titleLabel.bounds.size.width;
@@ -104,6 +105,8 @@
         default:
             break;
     }
+    
+    // 赋值edgeInset
     self.imageEdgeInsets = imageEdgeInset;
     self.titleEdgeInsets = titleEdgeInset;
 }
