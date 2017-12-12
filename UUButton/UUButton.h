@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, UUContentAlignment) {
-    UUContentAlignmenttNormal = 0,                      //内容居中>>图左文右
+    UUContentAlignmentNormal = 0,                       //内容居中>>图左文右
     UUContentAlignmentCenterImageRight,                 //内容居中>>图右文左
     UUContentAlignmentCenterImageTop,                   //内容居中>>图上文右
     UUContentAlignmentCenterImageBottom,                //内容居中>>图下文上

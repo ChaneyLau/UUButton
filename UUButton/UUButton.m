@@ -49,7 +49,7 @@
     // 执行switch
     switch (self.contentAlignment)
     {
-        case UUContentAlignmenttNormal:
+        case UUContentAlignmentNormal:
         {
             imageEdgeInset = UIEdgeInsetsMake(0, 0, 0, self.spacing);
             titleEdgeInset = UIEdgeInsetsMake(0, self.spacing, 0, 0);
